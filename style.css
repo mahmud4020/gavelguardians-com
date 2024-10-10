@@ -392,6 +392,12 @@ footer {
         font-weight: 500;
 
     }
+    .icon_150 i {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 768px) {
