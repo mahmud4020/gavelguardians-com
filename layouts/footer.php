@@ -61,9 +61,9 @@
 
                 <p>
                     <span class="footer-icon">
-                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-linkedin"></i>
                     </span>
-                    Instagram
+                    Linkedin
                 </p>
             </div>
         </div>
