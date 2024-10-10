@@ -1,0 +1,276 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+
+:root {
+    --background-black: #000;
+    --white-color: #fff;
+    --gold-color: #c89d66;
+
+}
+
+.custom-head-bg {
+    padding: 10px 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: var(--background-black);
+    border-color: white;
+    border-bottom: 1px solid var(--background-black);
+}
+
+.ctrl-img img {
+    width: 150px;
+}
+
+.custom-nav-style {
+    color: var(--white-color);
+    cursor: pointer;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    transition: all .3s ease;
+    font-size: 18px;
+}
+
+.custom-nav-style:hover {
+    color: var(--gold-color);
+}
+
+.margin_r_116p {
+    margin-right: 116px;
+}
+
+li.nav-item {
+    display: flex;
+}
+
+/* hero-section */
+.hero-sec {
+    background-image: url(./images/hero-img.jpeg);
+    position: relative;
+    z-index: 1;
+}
+
+.hero-sec::after,
+.img-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0 0 0 / 70%);
+    z-index: -1;
+}
+
+.hero-content-container {
+    padding: 100px 0;
+}
+
+.divider-element {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.devider-inner {
+    width: 100%;
+    border-top: 1px solid var(--gold-color);
+    margin: 0 auto;
+}
+
+.hero-content-container h1 {
+    font-size: 45px;
+    color: var(--gold-color);
+}
+
+.hero-content-container h3 {
+    font-size: 26px;
+    color: var(--white-color);
+}
+
+.feature-title {
+    font-size: 22px;
+    color: var(--white-color);
+    line-height: 1em;
+}
+
+.feature-sub-title {
+    font-size: 18px;
+    color: var(--white-color);
+    line-height: 1em;
+}
+
+.custom-padding-top {
+    padding-top: 15px;
+}
+
+.hero-frm h1,
+.hero-frm p {
+    font-size: 32px;
+    color: var(--background-black);
+    font-weight: 600;
+    text-align: center;
+}
+
+.hero-frm p {
+    font-size: 19px;
+}
+
+.hero-frm label {
+    color: #2c3345FF;
+    font-family: 'Inter';
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.hero-sec-btn {
+    background-color: #C89D66FF;
+    border: 0px none #FFFFFF;
+    border-radius: 5px;
+    padding: 9px 50px 9px 50px;
+    white-space: normal;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px #FFFFFF;
+}
+.hero-sec-btn:hover{
+    background-color: rgb(161, 126, 80);
+}
+.sec-space-bottom{
+    margin-bottom: 80px;
+}
+#how-it-work h3,
+.card-container h1{
+    text-align: center;
+    font-size: 22px !important;
+    color: black !important;
+}
+#how-it-work p,
+.card-container p,
+#why-us p{
+    text-align: center;
+    font-size: 18px;
+    color: var(--background-black);
+}
+#how-it-work h1,
+#why-us h1{
+    text-align: center;
+    font-size: 36px;
+    color: var(--gold-color);
+}
+.custom-margin-top{
+    margin-top: 60px;
+}
+.card-container .card {
+    border-bottom: 10px solid var(--gold-color);
+    height: 100%;
+}
+
+/* contact sec */
+.img-container{
+    background-image: url(./images/contact-bg.jpeg);
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.custom-btn{
+    font-family: 'outfit';
+    background-color: var(--gold-color);
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 15px 36px 15px 35px;
+    font-weight: 700;
+    border-width: 2px;
+    border-style: solid;
+    letter-spacing: 0;
+    text-transform: none;
+    text-shadow: 0 0 0 transparent;
+}
+.custom-btn:hover{
+    background-color: var(--gold-color);
+    animation: liftAnimation 0.3s ease-in-out forwards;
+}
+@keyframes liftAnimation {
+    0% {
+      box-shadow: 0 0 0 0 transparent;
+      transform: translateY(0);
+    }
+    100% {
+      box-shadow: 0 8px 5px -5px rgba(0, 0, 0, 0.25);
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Example usage of the animation */
+  .lift {
+    animation: liftAnimation 0.3s ease-in-out forwards;
+  }
+  
+  /* why choose us */
+  
+  #why-us .card{
+    padding: 35px 0 40px;
+    background-color: var(--gold-color);
+    border-width: 1px;
+    width: 80%;
+    margin: auto;
+  }
+  #why-us h1{
+    color: #000;
+  }
+  section#why-us .card-body {
+    padding: 30px 75px;
+}
+#why-us .feature-title{
+    font-size: 22px;
+    color: var(--background-black);
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+#why-us .feature-sub-title{
+    font-size: 18px;
+    color: var(--background-black);
+    line-height: 1.5em;
+}
+section#why-us .custom-padding-top {
+    padding-top: 30px;
+}
+/* footer */
+footer{
+    padding: 55px 0 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: var(--background-black);
+    color: var(--white-color);
+}
+.footer-logo img{
+    width: 150px;
+}
+#footer h1{
+    font-size: 22px;
+    padding: 0 0 10px;
+    color: var(--gold-color);
+    font-family: 'outfit';
+}
+#footer p{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.footer-icon{
+    margin-right: 3px;
+    color:var(--gold-color);
+}
+.custom-link:hover{
+    border-bottom: 1px solid var(--white-color);
+}
