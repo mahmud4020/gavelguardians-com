@@ -191,6 +191,8 @@ li.nav-item {
     position: relative;
     z-index: 1;
     background-size: cover;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .custom-btn {
@@ -297,6 +299,16 @@ footer {
 .custom-link:hover {
     border-bottom: 1px solid var(--white-color);
 }
+.icon_150 i{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 40px;
+    border-radius: 50%;
+    border: 1px solid #ededed;
+    color: var(--gold-color);
+    background: var(--white-color);
+}
 
 @media (max-width: 1024px) {
     .margin_r_116p {
@@ -367,6 +379,18 @@ footer {
     } */
     section.hero-sec .card {
         margin-top: 30px !important;
+    }
+    .sec-space-bottom{
+        margin-bottom: 50px;
+    }
+
+    #footer p {
+        font-size: 16px;
+    }
+    .custom-btn {
+        padding: 10px 15px;
+        font-weight: 500;
+
     }
 }
 
