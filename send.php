@@ -59,7 +59,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Sender and recipient details
             $mail->setFrom('noreply@callnow247.com', 'Lead - Gavel Guardians'); // Replace with your email and name
-            $mail->addAddress('yunus@getcallednow.com', 'Josh'); // Replace with recipient's email and name
+            $mail->addAddress('joshua@getcallednow.com', 'Josh'); // Replace with recipient's email and name
 
             // Email content
             $mail->isHTML(false);

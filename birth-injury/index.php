@@ -45,12 +45,22 @@
             }
         }
     </style>
-
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5PTFQFH6');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 
 <body>
- 
+ <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5PTFQFH6"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
     <main class="min-h-screen">
 
         <div class="max-w-4xl mx-auto bg-white text-center text-gray-600">
@@ -218,8 +228,8 @@
                                     </p>
                                 </div>
                                 <div id="msg14" class="bg-gray-200 p-3 rounded-lg shadow-xs mt-2 w-fit hidden">
-                                    <p id="msg14approved" class="text-md text-gray-800 hidden">You're qualified.</p>
-                                    <p id="msg14disapproved" class="text-md text-gray-800 hidden">You're qualified.
+                                    <p id="msg14approved" class="text-md text-gray-800 hidden">You're pre qualified for compensation.</p>
+                                    <p id="msg14disapproved" class="text-md text-gray-800 hidden">You're pre qualified for compensation.
                                     </p>
                                 </div>
                                 <div id="msg15" class="bg-gray-200 p-3 rounded-lg shadow-xs mt-2 w-fit hidden">
@@ -234,11 +244,11 @@
                                 <div id="msg17" class="bg-gray-200 p-3 rounded-lg shadow-xs mt-2 w-fit hidden">
                                     <p class="text-md text-gray-800 py-2">
                                         <a id="PrimaryNumber" href="tel:8888494091"
-                                            class="chat-button text-white font-bold bg-blue-500 rounded-full py-3 px-8 hidden ttc-button" onclick="dataLayer.push({'event': 'call-btn-click'});">
+                                            class="chat-button text-white font-bold bg-blue-500 rounded-full py-3 px-8 hidden ttc-button" onclick="dataLayer.push({'event': 'Contact'});">
                                             (888) 849-4091
                                         </a>
                                         <a id="DownsellNumber" href="tel:8888494091"
-                                            class="chat-button text-white font-bold bg-blue-500 rounded-full py-3 px-8 hidden" onclick="dataLayer.push({'event': 'call-btn-click'});">
+                                            class="chat-button text-white font-bold bg-blue-500 rounded-full py-3 px-8 hidden" onclick="dataLayer.push({'event': 'Contact'});">
                                             (888) 849-4091
                                         </a>
                                     </p>

@@ -18,7 +18,7 @@
 <body>
 
   <div class="border-bottom custom-head-bg">
-    <header class="navbar navbar-expand-lg navbar-light py-2 inner">
+    <header class="navbar navbar-expand-lg navbar-light py-2 inner sticky-top">
       <div class="container">
         <a href="/" class="text-decoration-none ctrl-img d-lg-none d-block">
           <img src="./images/logo-sm.jpeg" alt="Logo" class="img-fluid">
