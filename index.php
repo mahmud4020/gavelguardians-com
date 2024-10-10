@@ -58,16 +58,16 @@
 
                 <div class="mb-3">
                   <label for="fullName" class="form-label">Full Name *</label>
-                  <input type="text" class="form-control" name="fullName" id="fullName" placeholder="Full Name" required>
+                  <input type="text" class="form-control shadow-none" name="fullName" id="fullName" placeholder="Full Name" required>
                 </div>
                 <div class="mb-3">
                   <label for="phone" class="form-label">Phone *</label>
-                  <input type="tel" class="form-control" name="phone" id="phone" placeholder="Phone" required>
+                  <input type="tel" class="form-control shadow-none" name="phone" id="phone" placeholder="Phone" required>
                 </div>
                 <input id="leadid_token" name="universal_leadid" type="hidden" value=""/>
                 <div class="mb-3">
                   <label for="email" class="form-label">Email *</label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                  <input type="email" class="form-control shadow-none" name="email" id="email" placeholder="Email" required>
                 </div>
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="privacyPolicy" required>

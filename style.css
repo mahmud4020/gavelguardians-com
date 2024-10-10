@@ -39,6 +39,11 @@
 .custom-nav-style:hover {
     color: var(--gold-color) !important;
 }
+.form-check-input:checked {
+    background-color: var(--gold-color);
+    border-color: var(--gold-color);
+    box-shadow: none
+};
 
 .margin_r_116p {
     margin-right: 116px;
