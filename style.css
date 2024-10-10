@@ -142,7 +142,7 @@ li.nav-item:last-child {
 }
 
 .hero-sec-btn {
-    background-color: #C89D66FF;
+    background-color: #C89D66FF !important;
     border: 0px none #FFFFFF;
     border-radius: 5px;
     padding: 9px 50px 9px 50px;
@@ -152,7 +152,7 @@ li.nav-item:last-child {
 }
 
 .hero-sec-btn:hover {
-    background-color: rgb(161, 126, 80);
+    background-color: rgb(161, 126, 80) !important;
 }
 
 .sec-space-bottom {

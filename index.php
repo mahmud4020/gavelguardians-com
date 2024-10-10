@@ -104,7 +104,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="text-center icon_150 mb-3">
-                  <i class="fa-solid fa-handshake-simple"></i>
+                <i class="fa fa-user"></i>
                 </div>
                 <h1 class="mb-3">Inquire</h1>
                 <p>
@@ -120,7 +120,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="text-center icon_150 mb-3">
-                  <i class="fa-solid fa-handshake-simple"></i>
+                <i class="fa fa-clipboard"></i>
                 </div>
                 <h1 class="mb-3">Intake</h1>
                 <p>
@@ -136,7 +136,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="text-center icon_150 mb-3">
-                  <i class="fa-solid fa-handshake-simple"></i>
+                <i class="fa fa-check-circle"></i>
                 </div>
                 <h1 class="mb-3">Verify</h1>
                 <p>
@@ -152,7 +152,7 @@
             <div class="card">
               <div class="card-body">
                 <div class="text-center icon_150 mb-3">
-                  <i class="fa-solid fa-handshake-simple"></i>
+                <i class="fa fa-exchange-alt"></i>
                 </div>
                 <h1 class="mb-3">Transfer</h1>
                 <p>
@@ -192,7 +192,7 @@
 
           <div class="row align-items-center custom-padding-top">
             <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
-              <i class="fa-solid fa-handshake-simple"></i>
+            <i class="fa fa-lightbulb"></i>
             </div>
             <div class="col-lg-6 col-md-9 col-12">
               <div class="feature-title">Innovative Marketing</div>
@@ -203,7 +203,7 @@
 
           <div class="row align-items-center custom-padding-top">
             <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
-              <i class="fa-solid fa-handshake-simple"></i>
+            <i class="fa fa-user-friends"></i>
             </div>
             <div class="col-lg-6 col-md-9 col-12">
               <div class="feature-title">Client-Centric Approach</div>
@@ -214,7 +214,8 @@
 
           <div class="row align-items-center custom-padding-top">
             <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
-              <i class="fa-solid fa-handshake-simple"></i>
+            <i class="fa fa-trophy"></i>
+
             </div>
             <div class="col-lg-6 col-md-9 col-12">
               <div class="feature-title">Quality Leads</div>
@@ -225,7 +226,9 @@
 
           <div class="row align-items-center custom-padding-top">
             <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
-              <i class="fa-solid fa-handshake-simple"></i>
+            <i class="fa fa-medal"></i>
+
+
             </div>
             <div class="col-lg-6 col-md-9 col-12">
               <div class="feature-title">Proven Expertise</div>
