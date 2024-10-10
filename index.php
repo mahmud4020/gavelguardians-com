@@ -191,10 +191,10 @@
           </p>
 
           <div class="row align-items-center custom-padding-top">
-            <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
+            <div class="col-lg-2 col-12 text-center icon_150">
             <i class="fa fa-lightbulb"></i>
             </div>
-            <div class="col-lg-6 col-md-9 col-12">
+            <div class="col-lg-6 col-12">
               <div class="feature-title">Innovative Marketing</div>
               <div class="feature-sub-title">Our creative and data-driven marketing strategies set us apart, helping you
                 stand out in a competitive legal landscape</div>
@@ -202,10 +202,10 @@
           </div>
 
           <div class="row align-items-center custom-padding-top">
-            <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
+            <div class="col-lg-2 col-12 text-center icon_150">
             <i class="fa fa-user-friends"></i>
             </div>
-            <div class="col-lg-6 col-md-9 col-12">
+            <div class="col-lg-6 col-12">
               <div class="feature-title">Client-Centric Approach</div>
               <div class="feature-sub-title">Your success is our priority. We work closely with you to understand your
                 goals and provide personalized support</div>
@@ -213,11 +213,11 @@
           </div>
 
           <div class="row align-items-center custom-padding-top">
-            <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
+            <div class="col-lg-2 col-12 text-center icon_150">
             <i class="fa fa-trophy"></i>
 
             </div>
-            <div class="col-lg-6 col-md-9 col-12">
+            <div class="col-lg-6 col-12">
               <div class="feature-title">Quality Leads</div>
               <div class="feature-sub-title">We specialize in generating high-quality leads that convert, ensuring you
                 focus your efforts where they matter most.</div>
@@ -225,12 +225,12 @@
           </div>
 
           <div class="row align-items-center custom-padding-top">
-            <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
+            <div class="col-lg-2 col-12 text-center icon_150">
             <i class="fa fa-medal"></i>
 
 
             </div>
-            <div class="col-lg-6 col-md-9 col-12">
+            <div class="col-lg-6 col-12">
               <div class="feature-title">Proven Expertise</div>
               <div class="feature-sub-title">With years of experience in the legal industry, we understand the unique
                 challenges you face. We leverage this knowledge to deliver tailored solutions.</div>
