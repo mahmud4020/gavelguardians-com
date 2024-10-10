@@ -167,10 +167,15 @@ li.nav-item {
 }
 
 #how-it-work h1,
-#why-us h1 {
+#why-us h1,
+#contact-us h1 {
     text-align: center;
     font-size: 36px;
     color: var(--gold-color);
+}
+
+#contact-us h1 {
+    color: var(--white-color);
 }
 
 .custom-margin-top {
@@ -299,7 +304,8 @@ footer {
 .custom-link:hover {
     border-bottom: 1px solid var(--white-color);
 }
-.icon_150 i{
+
+.icon_150 i {
     width: 100px;
     height: 100px;
     line-height: 100px;
@@ -309,6 +315,38 @@ footer {
     color: var(--gold-color);
     background: var(--white-color);
 }
+
+#thank_you {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+.color_secondary {
+    color: var(--gold-color);
+    animation: blinkColor 1s step-start 3;
+}
+
+@keyframes blinkColor {
+    0% {
+        color: #000;
+    }
+
+    50% {
+        color: var(--gold-color);
+    }
+
+    100% {
+        color: #000;
+    }
+}
+
+section#thank_you .card {
+    padding: 30px;
+}
+
+
 
 @media (max-width: 1024px) {
     .margin_r_116p {
@@ -322,6 +360,10 @@ footer {
     .custom-nav-style {
         font-size: 16px;
     }
+
+    #thank_you {
+        padding: 50px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -329,8 +371,12 @@ footer {
         padding: 50px 0;
     }
 
-    .hero-content-container h1 {
-        font-size: 35px;
+    .hero-content-container h1,
+    #contact-us h1,
+    #how-it-work h1,
+    #why-us h1,
+    .content_survey h1 {
+        font-size: 30px;
     }
 
     .hero-content-container h3 {
@@ -350,10 +396,6 @@ footer {
         font-size: 18px !important;
     }
 
-    #how-it-work h1,
-    #why-us h1 {
-        font-size: 30px;
-    }
 
     #how-it-work p,
     .card-container p,
@@ -380,23 +422,34 @@ footer {
     section.hero-sec .card {
         margin-top: 30px !important;
     }
-    .sec-space-bottom{
+
+    .sec-space-bottom {
         margin-bottom: 50px;
     }
 
     #footer p {
         font-size: 16px;
     }
+
     .custom-btn {
         padding: 10px 15px;
         font-weight: 500;
 
     }
+
     .icon_150 i {
         width: 80px;
         height: 80px;
         line-height: 80px;
         font-size: 30px;
+    }
+
+    #thank_you {
+        padding: 30px;
+    }
+
+    section#thank_you .card {
+        padding: 15px;
     }
 }
 
@@ -404,4 +457,8 @@ footer {
     #why-us .card {
         width: 100%;
     }
+}
+
+button.navbar-toggler {
+    background: var(--white-color);
 }

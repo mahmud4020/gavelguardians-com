@@ -103,8 +103,8 @@
           <div class="col-lg-3 col-md-4 col-12">
             <div class="card">
               <div class="card-body">
-                <div class="text-center">
-                  <img src="./images/card-img.jpeg" alt="">
+                <div class="text-center icon_150 mb-3">
+                  <i class="fa-solid fa-handshake-simple"></i>
                 </div>
                 <h1 class="mb-3">Inquire</h1>
                 <p>
@@ -119,8 +119,8 @@
           <div class="col-lg-3 col-md-4 col-12">
             <div class="card">
               <div class="card-body">
-                <div class="text-center">
-                  <img src="./images/card-img.jpeg" alt="">
+                <div class="text-center icon_150 mb-3">
+                  <i class="fa-solid fa-handshake-simple"></i>
                 </div>
                 <h1 class="mb-3">Intake</h1>
                 <p>
@@ -135,8 +135,8 @@
           <div class="col-lg-3 col-md-4 col-12">
             <div class="card">
               <div class="card-body">
-                <div class="text-center">
-                  <img src="./images/card-img.jpeg" alt="">
+                <div class="text-center icon_150 mb-3">
+                  <i class="fa-solid fa-handshake-simple"></i>
                 </div>
                 <h1 class="mb-3">Verify</h1>
                 <p>
@@ -151,8 +151,8 @@
           <div class="col-lg-3 col-md-4 col-12">
             <div class="card">
               <div class="card-body">
-                <div class="text-center">
-                  <img src="./images/card-img.jpeg" alt="">
+                <div class="text-center icon_150 mb-3">
+                  <i class="fa-solid fa-handshake-simple"></i>
                 </div>
                 <h1 class="mb-3">Transfer</h1>
                 <p>
@@ -168,7 +168,7 @@
 
   <!-- Contact Us -->
 
-  <section class="sec-space-bottom">
+  <section id="contact-us" class="sec-space-bottom">
     <div class="container">
       <div class="img-container">
         <h1 class="mb-4">Contact Us Today to Acquire Unique Leads!</h1>
@@ -191,8 +191,8 @@
           </p>
 
           <div class="row align-items-center custom-padding-top">
-            <div class="col-lg-2 col-md-3 col-12 text-center">
-              <img src="./images/card-img.jpeg" alt="">
+            <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
+              <i class="fa-solid fa-handshake-simple"></i>
             </div>
             <div class="col-lg-6 col-md-9 col-12">
               <div class="feature-title">Innovative Marketing</div>
@@ -202,8 +202,8 @@
           </div>
 
           <div class="row align-items-center custom-padding-top">
-            <div class="col-lg-2 col-md-3 col-12 text-center">
-              <img src="./images/card-img.jpeg" alt="">
+            <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
+              <i class="fa-solid fa-handshake-simple"></i>
             </div>
             <div class="col-lg-6 col-md-9 col-12">
               <div class="feature-title">Client-Centric Approach</div>
@@ -213,8 +213,8 @@
           </div>
 
           <div class="row align-items-center custom-padding-top">
-            <div class="col-lg-2 col-md-3 col-12 text-center">
-              <img src="./images/card-img.jpeg" alt="">
+            <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
+              <i class="fa-solid fa-handshake-simple"></i>
             </div>
             <div class="col-lg-6 col-md-9 col-12">
               <div class="feature-title">Quality Leads</div>
@@ -224,8 +224,8 @@
           </div>
 
           <div class="row align-items-center custom-padding-top">
-            <div class="col-lg-2 col-md-3 col-12 text-center">
-              <img src="./images/card-img.jpeg" alt="">
+            <div class="col-lg-2 col-md-3 col-12 text-center icon_150">
+              <i class="fa-solid fa-handshake-simple"></i>
             </div>
             <div class="col-lg-6 col-md-9 col-12">
               <div class="feature-title">Proven Expertise</div>
