@@ -26,7 +26,7 @@
 }
 
 .custom-nav-style {
-    color: var(--white-color);
+    color: var(--white-color) !important;
     cursor: pointer;
     height: inherit;
     display: flex;
@@ -37,7 +37,7 @@
 }
 
 .custom-nav-style:hover {
-    color: var(--gold-color);
+    color: var(--gold-color) !important;
 }
 
 .margin_r_116p {
@@ -46,8 +46,11 @@
 
 li.nav-item {
     display: flex;
+    margin-right: 10px;
 }
-
+li.nav-item:last-child {
+    margin-right: 0;
+}
 /* hero-section */
 .hero-sec {
     background-image: url(./images/hero-img.jpeg);
@@ -325,7 +328,7 @@ footer {
 
 .color_secondary {
     color: var(--gold-color);
-    animation: blinkColor 1s step-start 3;
+    animation: blinkColor 1s step-start 2;
 }
 
 @keyframes blinkColor {
@@ -345,6 +348,13 @@ footer {
 section#thank_you .card {
     padding: 30px;
 }
+
+
+
+/* ************************************** */
+/* *************************Media Queries************* */
+/* ************************************** */
+
 
 
 
